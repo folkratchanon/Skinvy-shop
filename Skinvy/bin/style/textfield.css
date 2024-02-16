@@ -1,0 +1,6 @@
+.text-field{
+	-fx-background-color: #FFFFFF;
+	-fx-background-insets: 0, 0 0 1 0;
+	-fx-background-radius: 100;
+	-fx-text-fill: #707070;
+}

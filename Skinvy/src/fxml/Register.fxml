@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="500.0" prefWidth="400.0" style="-fx-background-color: #F8EDF8;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.RegisterController">
+   <children>
+      <TextField fx:id="text_fname" layoutX="57.0" layoutY="110.0" prefHeight="44.0" prefWidth="304.0" promptText="Enter first name" style="-fx-border-color: #DDDDDD; -fx-border-radius: 70;" stylesheets="@../style/textfield.css">
+         <font>
+            <Font name="Century Gothic" size="20.0" />
+         </font>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="text_lname" layoutX="57.0" layoutY="165.0" prefHeight="44.0" prefWidth="304.0" promptText="Enter last name" style="-fx-border-color: #DDDDDD; -fx-border-radius: 70;" stylesheets="@../style/textfield.css">
+         <font>
+            <Font name="Century Gothic" size="20.0" />
+         </font>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="text_phone" layoutX="57.0" layoutY="221.0" prefHeight="44.0" prefWidth="304.0" promptText="Enter phone number" style="-fx-border-color: #DDDDDD; -fx-border-radius: 70;" stylesheets="@../style/textfield.css">
+         <font>
+            <Font name="Century Gothic" size="20.0" />
+         </font>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="text_email" layoutX="57.0" layoutY="276.0" prefHeight="44.0" prefWidth="304.0" promptText="Enter email" style="-fx-border-color: #DDDDDD; -fx-border-radius: 70;" stylesheets="@../style/textfield.css">
+         <font>
+            <Font name="Century Gothic" size="20.0" />
+         </font>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </TextField>
+      <TextField fx:id="text_password" layoutX="57.0" layoutY="330.0" prefHeight="44.0" prefWidth="304.0" promptText="Enter the password" style="-fx-border-color: #DDDDDD; -fx-border-radius: 70;" stylesheets="@../style/textfield.css">
+         <font>
+            <Font name="Century Gothic" size="20.0" />
+         </font>
+         <padding>
+            <Insets left="20.0" />
+         </padding>
+      </TextField>
+      <Button layoutX="109.0" layoutY="404.0" mnemonicParsing="false" onAction="#btnRegister" prefHeight="44.0" prefWidth="200.0" stylesheets="@../style/btnLogin.css" text="Register" textFill="WHITE">
+         <font>
+            <Font name="Century Gothic" size="21.0" />
+         </font>
+      </Button>
+      <Label layoutX="127.0" prefHeight="100.0" prefWidth="164.0" text="Register">
+         <font>
+            <Font name="Freestyle Script" size="72.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
